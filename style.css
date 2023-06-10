@@ -1,15 +1,17 @@
 
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: 'Open Sans', 'Times New Roman', Times, serif;
-    background: #222;
-    background-image: url('https://source.unsplash.com/1600x900/?landscape');
-    font-size: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', 'Times New Roman', Times, serif;
+  background: #222;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 120%;
   }
   
   .card {
