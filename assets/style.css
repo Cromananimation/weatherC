@@ -7,7 +7,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Open Sans', 'Times New Roman', Times, serif;
-  background: #222;
+  background: #000000;
   background-image: url('https://source.unsplash.com/1600x900/?landscape');
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,7 +56,7 @@ body {
   }
   
   button:hover {
-    background: #7c7c7c6b;
+    background: #dc0d0d6b;
   }
   
   h1.temp {
@@ -84,7 +84,7 @@ body {
   .weather.loading:after {
     visibility: visible;
     content: "Loading...";
-    color: white;
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 0;
     left: 20px;

@@ -4,6 +4,7 @@
 //THEN I am presented with a 1- day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 //api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={620f5ac24fa41cbea74a285716f4bb64}
 // API call
+// made two keys just in case
 let weather = {
     apiKey: "f75f739b987b5409777a64cb69164b4e",
     fetchWeather: function (city) {
